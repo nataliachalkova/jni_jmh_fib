@@ -1,0 +1,247 @@
+# JMH 1.7.1 (released 28 days ago)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/bin/java
+# VM options: -Djava.library.path=./target
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FibonacciBenchmark.testJavaFib
+# Parameters: (n = 5)
+
+# Run progress: 0,00% complete, ETA 00:02:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 5,673 ns/op
+# Warmup Iteration   2: 5,624 ns/op
+# Warmup Iteration   3: 5,554 ns/op
+# Warmup Iteration   4: 5,321 ns/op
+# Warmup Iteration   5: 5,278 ns/op
+# Warmup Iteration   6: 5,376 ns/op
+# Warmup Iteration   7: 5,536 ns/op
+# Warmup Iteration   8: 5,405 ns/op
+# Warmup Iteration   9: 5,502 ns/op
+# Warmup Iteration  10: 5,464 ns/op
+# Warmup Iteration  11: 5,390 ns/op
+# Warmup Iteration  12: 5,598 ns/op
+# Warmup Iteration  13: 5,297 ns/op
+# Warmup Iteration  14: 5,422 ns/op
+# Warmup Iteration  15: 6,164 ns/op
+# Warmup Iteration  16: 5,504 ns/op
+# Warmup Iteration  17: 5,402 ns/op
+# Warmup Iteration  18: 5,464 ns/op
+# Warmup Iteration  19: 5,428 ns/op
+# Warmup Iteration  20: 5,407 ns/op
+Iteration   1: 5,325 ns/op
+Iteration   2: 5,384 ns/op
+Iteration   3: 5,397 ns/op
+Iteration   4: 5,465 ns/op
+Iteration   5: 5,493 ns/op
+Iteration   6: 5,384 ns/op
+Iteration   7: 5,414 ns/op
+Iteration   8: 5,446 ns/op
+Iteration   9: 5,440 ns/op
+Iteration  10: 5,581 ns/op
+Iteration  11: 5,414 ns/op
+Iteration  12: 5,455 ns/op
+Iteration  13: 5,527 ns/op
+Iteration  14: 5,507 ns/op
+Iteration  15: 5,351 ns/op
+Iteration  16: 5,474 ns/op
+Iteration  17: 5,401 ns/op
+Iteration  18: 5,485 ns/op
+Iteration  19: 5,430 ns/op
+Iteration  20: 5,418 ns/op
+
+
+Result: 5,439 ±(99.9%) 0,053 ns/op [Average]
+  Statistics: (min, avg, max) = (5,325, 5,439, 5,581), stdev = 0,061
+  Confidence interval (99.9%): [5,386, 5,493]
+
+
+# JMH 1.7.1 (released 28 days ago)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/bin/java
+# VM options: -Djava.library.path=./target
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FibonacciBenchmark.testJavaFib
+# Parameters: (n = 45)
+
+# Run progress: 25,00% complete, ETA 00:02:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 18,931 ns/op
+# Warmup Iteration   2: 18,263 ns/op
+# Warmup Iteration   3: 16,341 ns/op
+# Warmup Iteration   4: 16,117 ns/op
+# Warmup Iteration   5: 16,289 ns/op
+# Warmup Iteration   6: 16,077 ns/op
+# Warmup Iteration   7: 16,148 ns/op
+# Warmup Iteration   8: 16,050 ns/op
+# Warmup Iteration   9: 16,334 ns/op
+# Warmup Iteration  10: 16,019 ns/op
+# Warmup Iteration  11: 16,346 ns/op
+# Warmup Iteration  12: 16,122 ns/op
+# Warmup Iteration  13: 15,754 ns/op
+# Warmup Iteration  14: 16,257 ns/op
+# Warmup Iteration  15: 16,046 ns/op
+# Warmup Iteration  16: 16,267 ns/op
+# Warmup Iteration  17: 16,154 ns/op
+# Warmup Iteration  18: 15,863 ns/op
+# Warmup Iteration  19: 15,824 ns/op
+# Warmup Iteration  20: 16,093 ns/op
+Iteration   1: 16,192 ns/op
+Iteration   2: 16,013 ns/op
+Iteration   3: 16,093 ns/op
+Iteration   4: 16,124 ns/op
+Iteration   5: 16,269 ns/op
+Iteration   6: 16,210 ns/op
+Iteration   7: 16,049 ns/op
+Iteration   8: 16,209 ns/op
+Iteration   9: 16,189 ns/op
+Iteration  10: 15,711 ns/op
+Iteration  11: 15,860 ns/op
+Iteration  12: 16,500 ns/op
+Iteration  13: 15,866 ns/op
+Iteration  14: 18,133 ns/op
+Iteration  15: 16,927 ns/op
+Iteration  16: 17,011 ns/op
+Iteration  17: 16,470 ns/op
+Iteration  18: 19,894 ns/op
+Iteration  19: 17,988 ns/op
+Iteration  20: 16,890 ns/op
+
+
+Result: 16,630 ±(99.9%) 0,874 ns/op [Average]
+  Statistics: (min, avg, max) = (15,711, 16,630, 19,894), stdev = 1,007
+  Confidence interval (99.9%): [15,756, 17,504]
+
+
+# JMH 1.7.1 (released 28 days ago)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/bin/java
+# VM options: -Djava.library.path=./target
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FibonacciBenchmark.testNativeFib
+# Parameters: (n = 5)
+
+# Run progress: 50,00% complete, ETA 00:01:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 35,047 ns/op
+# Warmup Iteration   2: 30,467 ns/op
+# Warmup Iteration   3: 31,340 ns/op
+# Warmup Iteration   4: 30,265 ns/op
+# Warmup Iteration   5: 29,673 ns/op
+# Warmup Iteration   6: 29,106 ns/op
+# Warmup Iteration   7: 29,162 ns/op
+# Warmup Iteration   8: 28,979 ns/op
+# Warmup Iteration   9: 28,797 ns/op
+# Warmup Iteration  10: 28,246 ns/op
+# Warmup Iteration  11: 28,286 ns/op
+# Warmup Iteration  12: 28,172 ns/op
+# Warmup Iteration  13: 28,245 ns/op
+# Warmup Iteration  14: 28,253 ns/op
+# Warmup Iteration  15: 28,402 ns/op
+# Warmup Iteration  16: 28,127 ns/op
+# Warmup Iteration  17: 28,846 ns/op
+# Warmup Iteration  18: 28,066 ns/op
+# Warmup Iteration  19: 28,713 ns/op
+# Warmup Iteration  20: 28,352 ns/op
+Iteration   1: 28,722 ns/op
+Iteration   2: 28,116 ns/op
+Iteration   3: 28,720 ns/op
+Iteration   4: 29,066 ns/op
+Iteration   5: 29,122 ns/op
+Iteration   6: 28,019 ns/op
+Iteration   7: 28,335 ns/op
+Iteration   8: 28,870 ns/op
+Iteration   9: 29,237 ns/op
+Iteration  10: 28,200 ns/op
+Iteration  11: 28,890 ns/op
+Iteration  12: 28,980 ns/op
+Iteration  13: 28,958 ns/op
+Iteration  14: 28,149 ns/op
+Iteration  15: 28,295 ns/op
+Iteration  16: 28,919 ns/op
+Iteration  17: 28,478 ns/op
+Iteration  18: 28,410 ns/op
+Iteration  19: 28,535 ns/op
+Iteration  20: 28,924 ns/op
+
+
+Result: 28,647 ±(99.9%) 0,326 ns/op [Average]
+  Statistics: (min, avg, max) = (28,019, 28,647, 29,237), stdev = 0,375
+  Confidence interval (99.9%): [28,322, 28,973]
+
+
+# JMH 1.7.1 (released 28 days ago)
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/bin/java
+# VM options: -Djava.library.path=./target
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FibonacciBenchmark.testNativeFib
+# Parameters: (n = 45)
+
+# Run progress: 75,00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 207,746 ns/op
+# Warmup Iteration   2: 207,864 ns/op
+# Warmup Iteration   3: 205,189 ns/op
+# Warmup Iteration   4: 193,919 ns/op
+# Warmup Iteration   5: 195,676 ns/op
+# Warmup Iteration   6: 194,798 ns/op
+# Warmup Iteration   7: 201,844 ns/op
+# Warmup Iteration   8: 201,650 ns/op
+# Warmup Iteration   9: 191,866 ns/op
+# Warmup Iteration  10: 194,958 ns/op
+# Warmup Iteration  11: 194,684 ns/op
+# Warmup Iteration  12: 193,840 ns/op
+# Warmup Iteration  13: 202,978 ns/op
+# Warmup Iteration  14: 207,671 ns/op
+# Warmup Iteration  15: 194,514 ns/op
+# Warmup Iteration  16: 195,220 ns/op
+# Warmup Iteration  17: 197,000 ns/op
+# Warmup Iteration  18: 197,376 ns/op
+# Warmup Iteration  19: 200,046 ns/op
+# Warmup Iteration  20: 192,057 ns/op
+Iteration   1: 191,128 ns/op
+Iteration   2: 196,501 ns/op
+Iteration   3: 196,945 ns/op
+Iteration   4: 191,074 ns/op
+Iteration   5: 192,450 ns/op
+Iteration   6: 196,806 ns/op
+Iteration   7: 196,521 ns/op
+Iteration   8: 196,484 ns/op
+Iteration   9: 198,089 ns/op
+Iteration  10: 192,422 ns/op
+Iteration  11: 195,977 ns/op
+Iteration  12: 200,423 ns/op
+Iteration  13: 201,302 ns/op
+Iteration  14: 195,209 ns/op
+Iteration  15: 199,921 ns/op
+Iteration  16: 195,951 ns/op
+Iteration  17: 194,796 ns/op
+Iteration  18: 201,004 ns/op
+Iteration  19: 202,059 ns/op
+Iteration  20: 198,418 ns/op
+
+
+Result: 196,674 ±(99.9%) 2,843 ns/op [Average]
+  Statistics: (min, avg, max) = (191,074, 196,674, 202,059), stdev = 3,274
+  Confidence interval (99.9%): [193,831, 199,517]
+
+
+# Run complete. Total time: 00:02:42
+
+Benchmark                         (n)  Mode  Cnt    Score   Error  Units
+FibonacciBenchmark.testJavaFib      5  avgt   20    5,439 ± 0,053  ns/op
+FibonacciBenchmark.testJavaFib     45  avgt   20   16,630 ± 0,874  ns/op
+FibonacciBenchmark.testNativeFib    5  avgt   20   28,647 ± 0,326  ns/op
+FibonacciBenchmark.testNativeFib   45  avgt   20  196,674 ± 2,843  ns/op
